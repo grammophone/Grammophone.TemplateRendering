@@ -10,6 +10,8 @@ namespace Grammophone.TemplateRendering
 	/// <summary>
 	/// Contract for template rendering implementations,
 	/// which must be thread-safe.
+	/// Thus implementations should be configured for a singleton lifetime,
+	/// and have <see cref="IDisposable.Dispose"/> called at the end of the application.
 	/// </summary>
 	public interface IRenderProvider : IDisposable
 	{
