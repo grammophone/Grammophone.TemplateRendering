@@ -1,5 +1,5 @@
 # Grammophone.TemplateRendering
-This .NET library defines a contract for template rendering engines.
+This .NET Standard 2.0 library defines a contract for template rendering engines.
 It is typically used for generation of e-mail messages, workflow messages and others.
 
 The contract is expressed by the `IRenderProvider` interface. It contains two methods, `Render` and `Render<M>`, for
