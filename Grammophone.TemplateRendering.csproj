@@ -5,15 +5,8 @@
     <AssemblyTitle>Grammophone.TemplateRendering</AssemblyTitle>
     <Product>Grammophone.TemplateRendering</Product>
     <Copyright>Copyright ©  2016</Copyright>
-    <DocumentationFile>bin\$(Configuration)\Grammophone.TemplateRendering.XML</DocumentationFile>
-    <OutputPath>bin\$(Configuration)\</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugType>full</DebugType>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-  </PropertyGroup>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
   <ItemGroup>
     <None Include="LICENSE.md" />
     <None Include="README.md" />
